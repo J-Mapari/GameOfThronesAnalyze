@@ -58,7 +58,7 @@ plt.bar(sentiment_df.index, sentiment_df['Neutral'], color='gray', alpha=0.6, bo
 plt.xlabel('Character')
 plt.ylabel('Sentiment Score')
 plt.title('Sentiment Analysis of Game of Thrones Characters')
-plt.xticks(rotation=90)
+plt.xticks(rotation=45, ha='right' , rotation_mode='anchor', fontsize = 8)
 plt.legend()
 
 os.makedirs('sentiment_analysis', exist_ok=True)
