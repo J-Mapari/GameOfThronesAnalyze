@@ -7,7 +7,7 @@ Data analysis project, to analyse Game of Thrones, one of my most beloved shows,
 - [Conclusion](#Conclusion)
 - [Credits](#Credit)
 
-## Analysis
+## Method
 - Software used: Visual Studio Code, Windows.
 - Languages: Jupyter Notebooks, Python.
 - Libraries (not all): Pandas, os, math, nltk, matplotlib
