@@ -1,67 +1,77 @@
 # GameOfThronesAnalyze
+
 ## Introduction
-Data analysis project, to analyse Game of Thrones, one of my most beloved shows, by dialogues sentiment, basic dialogue quantity and dialogue density. 
+This data analysis project explores **Game of Thrones**, one of my favorite shows, by examining dialogue sentiment, basic dialogue quantity, and dialogue density.
 
 ## Table of Contents
-- [Method](#Method)
-- [Conclusion](#Conclusion)
-- [Credits](#Credit)
+- [Method](#method)
+- [Conclusion](#conclusion)
+  - [Basic Analysis](#basic-analysis)
+  - [Character-wise Analysis](#character-wise-analysis)
+  - [Sentiment Analysis](#sentiment-analysis)
+  - [Seasonal Sentiment Analysis](#seasonal-sentiment-analysis)
+  - [Dialogue Density](#dialogue-density)
+- [Credits](#credits)
 
 ## Method
-- Software used: Visual Studio Code, Windows.
-- Languages: Jupyter Notebooks, Python.
-- Libraries (not all): Pandas, os, math, nltk, matplotlib
+- **Software Used:** Visual Studio Code, Windows
+- **Languages:** Jupyter Notebooks, Python
+- **Libraries:** Pandas, os, math, nltk, matplotlib
 
 ## Conclusion
-### Basic analysis
-#### Character analysis
-The 20 most talkative characters (measured by number of dialogues) are given as follows:
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/bar.png" alt="Example Image" width="500" height="400"/>
 
-We can see that Lannisters have the highest number of dialogues, Tyrion Lannister, who is one of the best characters in the show, leads the way, followed by Jon Snow and Dany. This is a simple visualisation to give an idea of who largely dominates the show.
+### Basic Analysis
 
+#### Character Analysis
+The 20 most talkative characters (measured by the number of dialogues) are illustrated below:
+![Top 20 Most Talkative Characters](https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/bar.png)
 
-The top 15 most influential characters in the show (measured as a percentage of the overall number of dialogues said by these characters): 
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/pie.png" alt="Example Image" width="500" height="400"/>
+This visualization highlights that the Lannisters have the highest number of dialogues. Tyrion Lannister leads the way, followed by Jon Snow and Daenerys Targaryen. This graph provides insight into the characters who dominate the show in terms of dialogue volume.
 
-Of the total number of dialogues spoken by the top 25 characters, Tyrion has 17.7% of them, while there are not many interesting takeaways here, but we can observe that very important characters like Tywin Lannister
-have similar proportions of the dialogues, to characters like Eddard Stark, who have a much shorter screentime. Also that the Starks and Lannisters dominate the show, but that was already a known fact before this analysis. 
+The top 15 most influential characters, measured by the percentage of overall dialogues, are shown below:
+![Top 15 Influential Characters](https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/pie.png)
 
-### Character-wise analysis
-Wordclouds for top 50 or so characters have been made, to analyse what words were used by each one and how frequently. I used a stoplist, to make sure common words were not displayed in the wordclouds. The data is stored in a database for future use/referece and some interesting takeaways are: 
-- In the Stark family, only Arya and Bran did not have words which adress someone else, like "King", "Lord" or "Father". Arya and Bran's most used words were, "Kill" and "Hodor" respectively.
-- Jon Snow's obsession with the wall is depicted here by "wall" being one of his most used words, "night" and "king" are not far off either, showing us how obsessed he is with the white walkers.
-- Dany's dedication to be the "people's ruler" and her obsession with dragons is visible in her wordcloud, "People" and "dragons" are two of her most used words.
-- In classic Hodor fashion, the most used word by Hodor was indeed, "Hodor".
-This is Melisandre's wordcloud:
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/character_specific\character_word_frequency\Melisandre_wordcloud.png" alt="Example Image" width="650" height="400"/>
+Tyrion Lannister contributes 17.7% of the dialogues among the top 25 characters. This analysis shows the significant presence of key characters like Tywin Lannister and Eddard Stark, with the Starks and Lannisters dominating the show.
+
+### Character-wise Analysis
+
+Word clouds for the top 50 characters have been created to analyze frequently used words. Common words are filtered out using a stoplist. Key observations include:
+- **Stark Family:** Arya and Bran have unique word clouds with words like "Kill" and "Hodor", respectively.
+- **Jon Snow:** His focus on the wall is evident with frequent mentions of "wall", "night", and "king".
+- **Daenerys Targaryen:** Her word cloud reflects her dedication to the "people" and dragons.
+- **Hodor:** True to his nature, "Hodor" is the most frequently used word.
+
+Example word cloud for Melisandre:
+![Melisandre's Word Cloud](https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/character_specific/character_word_frequency/Melisandre_wordcloud.png)
 
 ### Sentiment Analysis
-I used sentiment analysis on characters to get their overall tone in the show, to understand what they sound like, what is their general outlook. Some interesting findings were: 
-- Villians like Ramsay Bolton and Cersei had a very high negative score, suggesting the cruel nature of their dialogues.
-- The Stark family's dialogue scores are also very negative, suggesting the hardship they faced throught the series.
-- Melisandre is a very religious woman who made references to killings and sacrifices, which is displayed in her negativity score here.
-- Arya stark has a very high negativity score, signifying her journey and the built up anger within her, references to murders and killings will likely have played a part in her score.
-- Hodor is completely neutral.
-Here is the entire graph:
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/sentiment_analysis\character_sentiments.png" alt="Example Image" width="650" height="400"/>
 
+Sentiment analysis reveals the general tone of characters throughout the series:
+- **Villains:** Ramsay Bolton and Cersei Lannister have high negative sentiment scores, reflecting their cruel nature.
+- **Stark Family:** Their dialogues show a generally negative sentiment, indicating their ongoing hardships.
+- **Melisandre:** Her references to killings and sacrifices contribute to a high negative score.
+- **Arya Stark:** Displays high negativity, reflecting her journey and anger.
+- **Hodor:** Maintains a neutral sentiment.
+
+Complete sentiment analysis graph:
+![Character Sentiment Analysis](https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/sentiment_analysis/character_sentiments.png)
 
 ### Seasonal Sentiment Analysis
-There has been sentiment analysis for every episode in every season, it shows us the relative mood of characters at that phase of the series. 
-- For example, the last few episodes have Tyrion Lannister's tone as victory is closer, while after his faction loses (morally) negativity is observed.
-- Simiarly, Sandor's negativity increases when he does is close to his end and while fighting the white walkers.
-- Dany's dialogues are more positive while going into the long night, and the last battle at King's landing, as she thinks she has a chance for victory, showing her confidence..
-Example from S7E1:
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/sentiment_analysis\Season_Season 7\Episode_Episode 1\character_sentiments.png" alt="Example Image" width="650" height="400"/>
 
+Sentiment analysis was conducted for every episode across all seasons, revealing the mood of characters at various phases of the series:
+- **Tyrion Lannister:** His positivity increases as victory approaches but shifts to negativity after a moral loss.
+- **Sandor Clegane:** His negativity rises as his storyline nears its end.
+- **Daenerys Targaryen:** Displays more positive sentiment as she prepares for major battles, reflecting her confidence.
 
-### Dialogue density
-I calculated dialogue density, per season per episode and made a graph. It does signify the sheer number of fight scenes in the later seasons, with the sharp drop. 
+Example from Season 7, Episode 1:
+![Season 7, Episode 1 Sentiment Analysis](https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/sentiment_analysis/Season_Season%207/Episode_Episode%201/character_sentiments.png)
 
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/dialogue_density.png" alt="Example Image" width="650" height="400"/>
+### Dialogue Density
+
+Dialogue density was calculated per season and episode, illustrating the sheer volume of fight scenes in later seasons with noticeable drops.
+
+![Dialogue Density](https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/dialogue_density.png)
 
 ## Credits
-- [stoplist](https://github.com/stopwords-iso/stopwords-en/blob/master/stopwords-en.txt)
-- [dataset](https://www.kaggle.com/datasets/albenft/game-of-thrones-script-all-seasons)
-
+- [Stoplist](https://github.com/stopwords-iso/stopwords-en/blob/master/stopwords-en.txt)
+- [Dataset](https://www.kaggle.com/datasets/albenft/game-of-thrones-script-all-seasons)
