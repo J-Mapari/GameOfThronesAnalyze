@@ -16,7 +16,7 @@ Data analysis project, to analyse Game of Thrones, one of my most beloved shows,
 ### Basic analysis
 #### Character analysis
 The 20 most talkative characters (measured by number of dialogues) are given as follows:
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/bar.png" alt="Example Image" width="650" height="400"/>
+<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/bar.png?raw=true" alt="Example Image" width="650" height="400"/>
 
 We can see that Lannisters have the highest number of dialogues, Tyrion Lannister, who is one of the best characters in the show, leads the way, followed by Jon Snow and Dany. This is a simple visualisation to give an idea of who largely dominates the show.
 
