@@ -22,7 +22,7 @@ We can see that Lannisters have the highest number of dialogues, Tyrion Lanniste
 
 
 The top 15 most influential characters in the show (measured as a percentage of the overall number of dialogues said by these characters): 
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/pie.png" alt="Example Image" width="500" height="400"/>
+![Book logo](/GameOfThronesAnalyze/pie.png)
 
 Of the total number of dialogues spoken by the top 25 characters, Tyrion has 17.7% of them, while there are not many interesting takeaways here, but we can observe that very important characters like Tywin Lannister
 have similar proportions of the dialogues, to characters like Eddard Stark, who have a much shorter screentime. Also that the Starks and Lannisters dominate the show, but that was already a known fact before this analysis. 
@@ -34,7 +34,7 @@ Wordclouds for top 50 or so characters have been made, to analyse what words wer
 - Dany's dedication to be the "people's ruler" and her obsession with dragons is visible in her wordcloud, "People" and "dragons" are two of her most used words.
 - In classic Hodor fashion, the most used word by Hodor was indeed, "Hodor".
 This is Melisandre's wordcloud:
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/character_specific\character_word_frequency\Melisandre_wordcloud.png" alt="Example Image" width="650" height="400"/>
+![Book logo](/GameOfThronesAnalyze/Melisandre_wordcloud.png)
 
 ### Sentiment Analysis
 I used sentiment analysis on characters to get their overall tone in the show, to understand what they sound like, what is their general outlook. Some interesting findings were: 
@@ -44,8 +44,7 @@ I used sentiment analysis on characters to get their overall tone in the show, t
 - Arya stark has a very high negativity score, signifying her journey and the built up anger within her, references to murders and killings will likely have played a part in her score.
 - Hodor is completely neutral.
 Here is the entire graph:
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/sentiment_analysis\character_sentiments.png" alt="Example Image" width="650" height="400"/>
-
+![Book logo](/GameOfThronesAnalyze/character_sentiments.png)
 
 ### Seasonal Sentiment Analysis
 There has been sentiment analysis for every episode in every season, it shows us the relative mood of characters at that phase of the series. 
@@ -53,7 +52,8 @@ There has been sentiment analysis for every episode in every season, it shows us
 - Simiarly, Sandor's negativity increases when he does is close to his end and while fighting the white walkers.
 - Dany's dialogues are more positive while going into the long night, and the last battle at King's landing, as she thinks she has a chance for victory, showing her confidence..
 Example from S7E1:
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/sentiment_analysis\Season_Season 7\Episode_Episode 1\character_sentiments.png" alt="Example Image" width="650" height="400"/>
+![Book logo](/GameOfThronesAnalyze/sentiment_analysis/Season_Season 7/Episode_Episode 1/character_sentiments.png)
+
 
 
 ### Dialogue density
