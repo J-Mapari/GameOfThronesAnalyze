@@ -22,7 +22,7 @@ We can see that Lannisters have the highest number of dialogues, Tyrion Lanniste
 
 
 The top 15 most influential characters in the show (measured as a percentage of the overall number of dialogues said by these characters): 
-![Book logo](/GameOfThronesAnalyze/pie.png)
+![logo](/GameOfThronesAnalyze/pie.png)
 
 Of the total number of dialogues spoken by the top 25 characters, Tyrion has 17.7% of them, while there are not many interesting takeaways here, but we can observe that very important characters like Tywin Lannister
 have similar proportions of the dialogues, to characters like Eddard Stark, who have a much shorter screentime. Also that the Starks and Lannisters dominate the show, but that was already a known fact before this analysis. 
