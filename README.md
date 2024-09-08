@@ -34,7 +34,7 @@ Wordclouds for top 50 or so characters have been made, to analyse what words wer
 - Dany's dedication to be the "people's ruler" and her obsession with dragons is visible in her wordcloud, "People" and "dragons" are two of her most used words.
 - In classic Hodor fashion, the most used word by Hodor was indeed, "Hodor".
 This is Melisandre's wordcloud:
-![Book logo](/GameOfThronesAnalyze/Melisandre_wordcloud.png)
+![](/GameOfThronesAnalyze/Melisandre_wordcloud.png)
 
 ### Sentiment Analysis
 I used sentiment analysis on characters to get their overall tone in the show, to understand what they sound like, what is their general outlook. Some interesting findings were: 
@@ -44,7 +44,7 @@ I used sentiment analysis on characters to get their overall tone in the show, t
 - Arya stark has a very high negativity score, signifying her journey and the built up anger within her, references to murders and killings will likely have played a part in her score.
 - Hodor is completely neutral.
 Here is the entire graph:
-![Book logo](/GameOfThronesAnalyze/character_sentiments.png)
+![](/GameOfThronesAnalyze/character_sentiments.png)
 
 ### Seasonal Sentiment Analysis
 There has been sentiment analysis for every episode in every season, it shows us the relative mood of characters at that phase of the series. 
@@ -52,14 +52,15 @@ There has been sentiment analysis for every episode in every season, it shows us
 - Simiarly, Sandor's negativity increases when he does is close to his end and while fighting the white walkers.
 - Dany's dialogues are more positive while going into the long night, and the last battle at King's landing, as she thinks she has a chance for victory, showing her confidence..
 Example from S7E1:
-![Book logo](/GameOfThronesAnalyze/sentiment_analysis/Season_Season 7/Episode_Episode 1/character_sentiments.png)
+
+![](/GameOfThronesAnalyze/sentiment_analysis/Season_Season 7/Episode_Episode 1/character_sentiments.png)
 
 
 
 ### Dialogue density
 I calculated dialogue density, per season per episode and made a graph. It does signify the sheer number of fight scenes in the later seasons, with the sharp drop. 
 
-![Book logo](/GameOfThronesAnalyze/basic_analysis/dialogue_density.png)
+![](/GameOfThronesAnalyze/basic_analysis/dialogue_density.png)
 
 ## Credits
 - [stoplist](https://github.com/stopwords-iso/stopwords-en/blob/master/stopwords-en.txt)
