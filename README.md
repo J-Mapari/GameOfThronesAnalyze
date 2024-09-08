@@ -59,7 +59,7 @@ Example from S7E1:
 ### Dialogue density
 I calculated dialogue density, per season per episode and made a graph. It does signify the sheer number of fight scenes in the later seasons, with the sharp drop. 
 
-<img src="https://github.com/J-Mapari/GameOfThronesAnalyze/blob/main/basic_analysis/dialogue_density.png" alt="Example Image" width="650" height="400"/>
+![Book logo](/GameOfThronesAnalyze/basic_analysis/dialogue_density.png)
 
 ## Credits
 - [stoplist](https://github.com/stopwords-iso/stopwords-en/blob/master/stopwords-en.txt)
